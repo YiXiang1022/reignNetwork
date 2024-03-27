@@ -889,14 +889,18 @@ section {
 .counts .count-box a:hover {
   color: #a1a1a1;
 }
-div#countBoxFlex {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 div#countBoxCenter {
     display: flex;
     justify-content: center !important;
+}
+
+@media(min-width:1000px){
+    div#countBoxFlex {
+    display: flex;
+    justify-content: space-around;
+}
 }
 /*--------------------------------------------------------------
 # Testimonials
